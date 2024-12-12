@@ -1,7 +1,6 @@
 # Kaggle INF554
 
 ## Adrien BINDEL, Victor DESHORS, Rodrigue REIBEL
-## Transcontinental Titans
 
 ## 1. Structure of the code
 
