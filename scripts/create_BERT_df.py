@@ -47,11 +47,11 @@ if __name__ == "__main__":
 
     if mode == "train":
         path_data = "challenge_data/train_tweets"
-        path_write = "challenge_data/train_BERT"
+        path_write = "challenge_data/BERT_embeddings/train_BERT"
     
     else:
         path_data = "challenge_data/train_tweets"
-        path_write = "challenge_data/train_BERT"
+        path_write = "challenge_data/BERT_embeddings/train_BERT"
 
     print(mode)
     exit()

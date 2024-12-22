@@ -2,11 +2,13 @@
 
 ## Adrien BINDEL, Victor DESHORS, Rodrigue REIBEL
 
+This repository contains the implementation of a machine learning pipeline for real-time detection of sub-events during football matches based on tweets. The project leverages state-of-the-art natural language processing techniques to identify and classify sub-events such as goals, penalties, and red cards from large-scale social media data.
+
 ## 1. Structure of the code
 
 - challenge_data/
-    - should contain folders train_tweets/ and eval_tweets/ with csv files of the original data
-    - eval_BERT/ and train_BERT/ folders will contain BERT embeddings once create_BERT_df.py is run
+    - train_tweets/ and eval_tweets/ contain csv files of the original data
+    - BERT_embeddings/eval_BERT/ and BERT_embeddings/train_BERT/ folders will contain BERT embeddings once scripts/create_BERT_df.py is run
 
 - player_data/
     - contain the list of the players who played during the 2010 and 2014 World Cups and that is used to anonymized the data
