@@ -38,22 +38,22 @@ This repository contains the implementation of a machine learning pipeline for r
 
 ## 2. Code usage
 
-1. *Original data* :
-    - Put the original data in folders challenge_data/train_tweets/ and challenge_data/eval_tweets/
+<!-- 1. *Original data* :
+    - Put the original data in folders challenge_data/train_tweets/ and challenge_data/eval_tweets/ -->
 
-2. *First create BERT embeddings for train and eval dataset* :
+1. *First create BERT embeddings for train and eval dataset* :
     - run ``python -m scripts.create_BERT_df train``
     - run ``python -m scripts.create_BERT_df eval``
 
-3. *Evaluate the cluster-classifier model*:
+2. *Evaluate the cluster-classifier model*:
 
     - run ``python -m scripts.cluster_classifier_eval``
 
-4. *Evaluate the cluster-classifier with GloVe for embedding and LogisticRegression as the classifier model*:
+3. *Evaluate the cluster-classifier with GloVe for embedding and LogisticRegression as the classifier model*:
 
     - run ``python -m scripts.cluster_classifier_GloVe``
 
-5. *Evaluate the CNN classifier model*:
+4. *Evaluate the CNN classifier model*:
 
 - First train the CNN binary classifier model
     - ``run python -m scripts.CNN_classifier_training``
