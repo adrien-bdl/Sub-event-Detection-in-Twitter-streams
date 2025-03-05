@@ -47,15 +47,15 @@ This repository contains the implementation of a machine learning pipeline for r
 
 3. *Evaluate the cluster-classifier model*:
 
-    - run python -m scripts.cluster_classifier_eval
+    - run ``python -m scripts.cluster_classifier_eval``
 
 4. *Evaluate the cluster-classifier with GloVe for embedding and LogisticRegression as the classifier model*:
 
-    - run python -m scripts.cluster_classifier_GloVe
+    - run ``python -m scripts.cluster_classifier_GloVe``
 
 5. *Evaluate the CNN classifier model*:
 
 - First train the CNN binary classifier model
-    - run python -m scripts.CNN_classifier_training
+    - ``run python -m scripts.CNN_classifier_training``
 - Then eval the CNN binary classifier model
-    - run python -m scripts.CNN_classifier_eval
+    - ``run python -m scripts.CNN_classifier_eval``
