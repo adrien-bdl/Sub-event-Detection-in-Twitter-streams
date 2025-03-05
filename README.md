@@ -42,8 +42,8 @@ This repository contains the implementation of a machine learning pipeline for r
     - Put the original data in folders challenge_data/train_tweets/ and challenge_data/eval_tweets/
 
 2. *First create BERT embeddings for train and eval dataset* :
-    - run python -m scripts.create_BERT_df train
-    - run python -m scripts.create_BERT_df eval
+    - run ``python -m scripts.create_BERT_df train``
+    - run ``python -m scripts.create_BERT_df eval``
 
 3. *Evaluate the cluster-classifier model*:
 
